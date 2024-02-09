@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Montserrat&family=Quicksand&display=swap');
+
+h1 {
+    font-family: 'Quicksand', sans-serif;
+}
+
+body
+{
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("../images/backgrounds/child-background.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+#childBtn1, #childImage1 {
+    background-color: rgb(249, 246, 70);
+    min-width: 8vw;
+}
+
+#childBtn2, #childImage2 {
+    background-color: rgb(249, 70, 70);
+    min-width: 8vw;
+}
+
+#childBtn3, #childImage3 {
+    background-color: rgb(237, 70, 249);
+    min-width: 8vw;
+}
+
+#childBtn4, #childImage4 {
+    background-color: rgb(70, 147, 249);
+    min-width: 8vw;
+}
+
+#childBtn5, #childImage5 {
+    background-color: rgb(70, 249, 85);
+    min-width: 8vw;
+}
+
+#childImage {
+    max-height: 20vh;
+}

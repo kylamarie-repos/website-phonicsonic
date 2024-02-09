@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Montserrat&family=Quicksand&display=swap');
+
+h1 {
+    font-family: 'Quicksand', sans-serif;
+}
+body
+{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* CSS for horizontal layout */
+.letter-row {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping to the next line if there's not enough space */
+}
+
+.letter-row .col {
+    flex: 1; /* Distribute available space equally among buttons */
+    max-width: 25%; /* Adjust the width as needed to fit your design */
+    margin: 0.5rem; /* Add spacing between buttons */
+}
+
+#chart_img {
+    max-height: 45vh;
+    max-width: 20vw;
+}
+
+#letterBtn
+{
+    font-family: 'Gloria Hallelujah', cursive;
+    background-color: #fff3b3;
+    font-size: xx-large;
+}
+
+#logo {
+    height: 9vh;
+}
+
+#vector-header{
+    width: 4.5vw;
+}
+
+#b-logo {
+    width: 2vw;
+}
+
+#col-img {
+    width: 10vw;
+}
+
+.static {
+    position: absolute;
+    background: white;
+}
+
+.static:hover{
+    opacity: 0;
+}
+
+
+#text-to-speech {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#text {
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#speak-button {
+    padding: 10px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Scroll to top button */
+#myBtn1, #myBtn2 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    font-size: 18px; /* Increase font size */
+    border: none;
+}
+
+
+#uploadImage {
+    max-width: 20vw;
+}
+
+#downloadImage {
+    max-width: 10vw;
+}
+
+.cd {
+    color:#8a1384;
+}
+
+#door {
+    max-height: 6vh;
+}
+
+#childBtn1 {
+    background-color: rgb(249, 246, 70);
+}
+
+#childBtn2 {
+    background-color: rgb(249, 70, 70);
+}
+
+#childBtn3 {
+    background-color: rgb(237, 70, 249);
+}
+
+#childBtn4 {
+    background-color: rgb(70, 147, 249);
+}
+
+#childBtn5 {
+    background-color: rgb(70, 249, 85);
+}
